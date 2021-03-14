@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="3dp"
+    android:background="@drawable/bg_s"
+    android:orientation="vertical"
+    tools:context=".Name">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|center_vertical"
+        android:layout_marginTop="10dp"
+        android:text="Donor Details"
+        android:textColor="#383439"
+        android:textSize="40sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="TextView"
+        android:textColor="#383439"
+        android:textSize="36sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="No Mobile no."
+        android:textColor="#383439"
+        android:textSize="36sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+</LinearLayout>

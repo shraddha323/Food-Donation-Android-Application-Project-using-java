@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="@drawable/bg_l"
+    android:backgroundTintMode="add"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#D3E5ED"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Food Donation App"
+        android:textColor="#270A2C"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#D3E5ED"
+        android:gravity="center|center_horizontal"
+        android:text="Login Page"
+        android:textColor="#270A2C"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+
+        android:background="#D3E5ED"
+        android:backgroundTint="#D3E5ED"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:textColor="#270A2C"
+        android:textColorHint="#B799ED"
+        android:textSize="24sp"
+        android:textStyle="italic">
+
+    </EditText>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="#D3E5ED"
+        android:backgroundTint="#D3E5ED"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textColor="#270A2C"
+        android:textColorHint="#B799ED"
+        android:textSize="24sp"
+        android:textStyle="italic">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#AAD0D5"
+        android:gravity="center|center_horizontal"
+        android:padding="5dp"
+        android:text="LOGIN"
+        android:textSize="24sp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+
+        android:gravity="center"
+        android:text="New Here?Create Account"
+        android:textColor="#270A2C"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/food">
+
+    </ImageView>
+
+
+</LinearLayout>
